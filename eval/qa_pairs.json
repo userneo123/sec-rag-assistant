@@ -1,0 +1,26 @@
+[
+  {"question": "What was Aster Robotics Inc.'s revenue in fiscal year 2025?", "expected_tickers": ["ASTR"], "expect_answerable": true},
+  {"question": "What was Aster Robotics Inc.'s net income in fiscal year 2025?", "expected_tickers": ["ASTR"], "expect_answerable": true},
+  {"question": "What is Aster Robotics Inc.'s diluted EPS for fiscal 2025?", "expected_tickers": ["ASTR"], "expect_answerable": true},
+  {"question": "What warehouse automation competition risk does Aster Robotics disclose?", "expected_tickers": ["ASTR"], "expect_answerable": true},
+
+  {"question": "What was Bluepeak Analytics Corp.'s revenue in fiscal year 2025?", "expected_tickers": ["BPKA"], "expect_answerable": true},
+  {"question": "Why did Bluepeak Analytics Corp.'s net income decline in fiscal 2025?", "expected_tickers": ["BPKA"], "expect_answerable": true},
+  {"question": "What is Bluepeak Analytics Corp.'s diluted EPS for fiscal 2025?", "expected_tickers": ["BPKA"], "expect_answerable": true},
+  {"question": "What foreign currency risk does Bluepeak Analytics Corp disclose?", "expected_tickers": ["BPKA"], "expect_answerable": true},
+
+  {"question": "What was Coral Harbor Foods Inc.'s revenue in fiscal year 2025?", "expected_tickers": ["CHFI"], "expect_answerable": true},
+  {"question": "Why did Coral Harbor Foods Inc.'s revenue decline in fiscal 2025?", "expected_tickers": ["CHFI"], "expect_answerable": true},
+  {"question": "What is Coral Harbor Foods Inc.'s diluted EPS for fiscal 2025?", "expected_tickers": ["CHFI"], "expect_answerable": true},
+  {"question": "What commodity input cost risks does Coral Harbor Foods disclose?", "expected_tickers": ["CHFI"], "expect_answerable": true},
+
+  {"question": "Which of the three companies had a decline in net income in fiscal 2025?", "expected_tickers": ["ASTR", "BPKA", "CHFI"], "expect_answerable": true},
+  {"question": "Which company had the highest revenue growth rate in fiscal 2025?", "expected_tickers": ["ASTR", "BPKA", "CHFI"], "expect_answerable": true},
+  {"question": "Compare the diluted EPS of Aster Robotics Inc. and Bluepeak Analytics Corp.", "expected_tickers": ["ASTR", "BPKA"], "expect_answerable": true},
+  {"question": "Which company experienced declining revenue in fiscal 2025 and why?", "expected_tickers": ["CHFI"], "expect_answerable": true},
+
+  {"question": "What is Aster Robotics Inc.'s current stock price?", "expected_tickers": ["ASTR"], "expect_answerable": false},
+  {"question": "What semiconductor supply chain risks does Bluepeak Analytics Corp face?", "expected_tickers": ["BPKA"], "expect_answerable": false},
+  {"question": "What is Coral Harbor Foods Inc.'s dividend yield?", "expected_tickers": ["CHFI"], "expect_answerable": false},
+  {"question": "Does Aster Robotics Inc. have any pending litigation?", "expected_tickers": ["ASTR"], "expect_answerable": false}
+]
