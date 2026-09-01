@@ -1,0 +1,82 @@
+.app {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: left;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.ask-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.ask-form input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.ask-form button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background: #646cff;
+  color: white;
+  cursor: pointer;
+}
+
+.ask-form button:disabled {
+  background: #444;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff6b6b;
+  margin-top: 1rem;
+}
+
+.answer-block {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #161616;
+}
+
+.answer-block h2 {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.answer-block h3 {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin-top: 1.25rem;
+}
+
+.sources-list {
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.sources-list li {
+  margin-bottom: 0.4rem;
+}
